@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color:rgb(245, 242, 239);
+}
+
+/* Estilos para la cuadrícula */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Divide en dos columnas */
+    grid-gap: 20px; /* Espacio entre elementos */
+    align-items: start; /* Alinea los elementos en la parte superior */
+}
+
+/* Estilos para los elementos individuales */
+.grid> div {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family:'Lucida Sans';
+}
+
+.imagen {
+    grid-column: 1 / 2; /* Ocupa la primera columna */
+    grid-row: 1 / 2; /* Ocupa la primera fila */
+}
+
+.nombre {
+    grid-column: 2 / 3; /* Ocupa la segunda columna */
+    grid-row: 1 / 2; /* Ocupa la primera fila */
+}
+
+.acerca {
+    grid-column: 1 / 3; /* Ocupa ambas columnas */
+    grid-row: 2 / 3; /* Ocupa la segunda fila */
+}
+
+.educacion {
+    grid-column: 1 / 2; /* Ocupa la primera columna */
+    grid-row: 3 / 4; /* Ocupa la tercera fila */
+}
+
+.experiencia {
+    grid-column: 2 / 3; /* Ocupa la segunda columna */
+    grid-row: 3 / 4; /* Ocupa la tercera fila */
+}
+
+.habilidades {
+    grid-column: 1 / 2; /* Ocupa la primera columna */
+    grid-row: 4 / 5; /* Ocupa la cuarta fila */
+}
+
+.contacto {
+    grid-column: 2 / 3; 
+}
+   
+
+.boton{
+    grid-column: 1 / 2;
+   
+}

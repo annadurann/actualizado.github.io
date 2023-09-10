@@ -1,0 +1,56 @@
+/* Estilos para el captcha */
+#captcha {
+    font-size: 36px; /* Aumenta el tamaño de la letra */
+    font-weight: bold;
+    text-align: center;
+    margin: 50px auto; /* Centra horizontalmente y agrega espacio vertical */
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #b79ab7; /* Cambia el color del texto a lila */
+}
+
+
+
+h1{
+    color:rgb(60, 0, 60);
+    font-size: 50px;
+    text-align: center; 
+    margin-top: 9cm;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #e8cefe;
+    color: rgb(13, 13, 13);
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 0cm;
+
+}
+
+
+
+input[type="text"] {
+    margin-top: 2cm;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    align-items: center;
+    margin-left: 12cm;
+    width: 6.6cm;
+   
+}
+
+
+#captchaResultado {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+body{
+    background-color: #e5e3e3;
+    font-family: 'Franklin Gothic Medium';
+}

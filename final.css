@@ -1,0 +1,57 @@
+
+/* Estilos generales */
+body {
+    background-color: black; /* Establece el fondo negro */
+    color: white; /* Establece el color del texto en blanco */
+    font-family: 'Times New Roman'; /* Cambia la fuente del texto según tus preferencias */
+
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+    font-size: 20px;
+}
+
+/* Estilo para los títulos */
+h1 {
+    font-family:Calibri;
+    font-size: 100px; /* Ajusta el tamaño de fuente de los títulos */
+    margin-bottom: 20px; /* Agrega un margen inferior a los títulos */
+    color: rgb(120, 143, 120);
+    
+}
+
+h2{
+    font-family:Calibri;/* Cambia la fuente de los títulos según tus preferencias */
+    font-size: 45px; /* Ajusta el tamaño de fuente de los títulos */
+    margin-bottom: 20px; /* Agrega un margen inferior a los títulos */
+    color: rgb(118, 99, 74);
+    
+}
+
+/* Estilo para las listas */
+ul {
+    font-size: 35px; /* Ajusta el tamaño de fuente de las listas */
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno predeterminado de las listas */
+}
+
+/* Estilo para los elementos de lista */
+ul li {
+    margin-bottom: 10px; /* Agrega un margen inferior a los elementos de lista */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: rgb(209, 195, 176); /* Establece el color del texto del enlace en blanco */
+    text-decoration: underline; /* Elimina la subrayado de los enlaces */
+}
+
+/* Estilo para los enlaces visitados */
+a:visited {
+    color: rgb(219, 206, 194); /* Establece el color del texto de los enlaces visitados en blanco */
+}
+
+/* Estilo para las imágenes */
+img {
+    display: block; /* Evita el espacio en blanco debajo de las imágenes */
+    margin: 0 auto; /* Centra las imágenes horizontalmente */
+}
